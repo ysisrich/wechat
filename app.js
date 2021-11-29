@@ -7,12 +7,8 @@ const reply = require('./reply/index.js');
 
 const Wechat = require('./wechat/wechat.js')
 
-
-
 const w = new Wechat()
 
-
-console.log(reply())
 
 app.use(reply())
 
